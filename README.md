@@ -3,6 +3,7 @@
 > **作者**：电子羊羊尾（小黑盒 ID: 38096711）
 > **免费分享**：本包**免费分享**、不收取任何费用；**禁止倒卖/付费售卖**——如在第三方平台付费购得，请退款并向平台举报。
 > **内核**：MGPU Bridge 0.4.0 定制构建 **R41x13j**（`Win64/nvngx.dll_mgpu_bridge.addon64` = 1,360,896 B / `sha256:13e01caf…`）
+> **发布仓库**：https://github.com/Knownmind/MGPU-11.9 （可按需改名）
 > **本仓库是"轻量包"**：**不含 NVIDIA / AMD 运行时二进制**（DLSS-NR 模型、DLSS-G、`_nvngx.dll`、FSR 运行库等），需要你自备，见 [`docs/RUNTIME-FILES.md`](docs/RUNTIME-FILES.md)。完整包不在公开仓库分发。
 
 ---

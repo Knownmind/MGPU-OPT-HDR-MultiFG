@@ -1,5 +1,7 @@
 # 发布到 GitHub（维护者操作）
 
+> **GitHub 账号**：`Knownmind`　**建议仓库名**：`MGPU-11.9`（可在网页改名，下面的命令同步改）
+
 ## 0. 前置
 
 - GitHub 账号；本机已装 git（2.56+）与可选 GitHub CLI（`winget install GitHub.cli`，然后 `gh auth login`）。
@@ -15,7 +17,7 @@ git init
 git add .
 git commit -m "MGPU 11.9 (R41x13j) - free share"
 git branch -M main
-git remote add origin https://github.com/<你的用户名>/<仓库名>.git
+git remote add origin https://github.com/Knownmind/MGPU-11.9.git
 git push -u origin main
 ```
 
