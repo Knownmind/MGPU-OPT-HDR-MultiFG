@@ -25,7 +25,7 @@ git init
 git add .
 git commit -m "MGPU 11.9 (R41x13j) - free share"
 git branch -M main
-git remote add origin https://github.com/Knownmind/MGPU-11.9.git
+git remote add origin https://github.com/Knownmind/MGPU-OPT-HDR-MutiFG.git
 git push -u origin main
 ```
 

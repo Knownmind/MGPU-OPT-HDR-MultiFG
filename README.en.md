@@ -1,6 +1,7 @@
 ﻿# MGPU (NVOF Adaptive Multi-Frame + OPT Super-Resolution Injection + HDR) 11.9 · Lite Release
 
 > **Author**: 电子羊羊尾 (Heybox ID: 38096711)
+> **Repository**: https://github.com/Knownmind/MGPU-OPT-HDR-MutiFG
 > **Free share**: This package is shared for **free**. Reselling or paid distribution is **prohibited**. If you paid for it on a third-party platform, ask for a refund and report the seller.
 > **Kernel**: MGPU Bridge 0.4.0 custom build **R41x13j** (`Win64/nvngx.dll_mgpu_bridge.addon64` = 1,360,896 B / `sha256:13e01caf…`)
 > **This is the "lite" release**: it does **NOT** bundle NVIDIA/AMD runtime binaries (DLSS-NR model, DLSS-G, `_nvngx.dll`, FSR runtimes). You must supply them yourself — see [`docs/RUNTIME-FILES.md`](docs/RUNTIME-FILES.md). The full package is not distributed publicly.
