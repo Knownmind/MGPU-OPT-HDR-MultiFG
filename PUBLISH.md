@@ -1,6 +1,6 @@
 # 发布到 GitHub（维护者操作）
 
-> **GitHub 账号**：`Knownmind`　**建议仓库名**：`MGPU-11.9`（可在网页改名，下面的命令同步改）
+> **GitHub 账号**：`Knownmind`　**仓库名**：`MGPU-OPT-HDR-MutiFG`（可在网页改名，下面的命令同步改）
 
 ## 0. 前置
 
@@ -8,7 +8,7 @@
 
 ## 0.5 建仓库时填什么（双语示例）
 
-- **Repository name**：`MGPU-11.9`
+- **Repository name**：`MGPU-OPT-HDR-MutiFG`
 - **Description**：
   `A+N dual-GPU MGPU Bridge 11.9 - AMD renders, NVIDIA runs DLSS-NR / NVOF / DLSS-G frame generation / HDR10 output. Lite release (NVIDIA/AMD runtimes not included). Free share, not for sale. / A+N 双显卡 MGPU Bridge 11.9：A 卡渲染，N 卡跑 DLSS-NR / NVOF / DLSS-G 插帧 / HDR10 上屏；轻量包不含 NVIDIA/AMD 运行时；免费分享，禁止倒卖。`
 - **Public**，**不要**勾选 README/.gitignore/license 初始化
@@ -16,7 +16,7 @@
 
 ## 1. 建仓库
 
-GitHub 网页：New repository → 名称随意（如 `MGPU-11.9`）→ Public → 不要初始化 README/LICENSE（本目录已有）。
+GitHub 网页：New repository → 名称随意（已建：`MGPU-OPT-HDR-MutiFG`）→ Public → 不要初始化 README/LICENSE（本目录已有）。
 
 ## 2. 推仓库（在本目录执行）
 
