@@ -1,0 +1,9 @@
+_release-assets/
+*.zip
+*.7z
+*.rar
+*.log
+*.bak-*
+Win64/mgpu/*.dll
+!Win64/mgpu/README.txt
+Win64/mgpu/_nvngx.dll
