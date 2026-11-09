@@ -6,6 +6,14 @@
 
 - GitHub 账号；本机已装 git（2.56+）与可选 GitHub CLI（`winget install GitHub.cli`，然后 `gh auth login`）。
 
+## 0.5 建仓库时填什么（双语示例）
+
+- **Repository name**：`MGPU-11.9`
+- **Description**：
+  `A+N dual-GPU MGPU Bridge 11.9 - AMD renders, NVIDIA runs DLSS-NR / NVOF / DLSS-G frame generation / HDR10 output. Lite release (NVIDIA/AMD runtimes not included). Free share, not for sale. / A+N 双显卡 MGPU Bridge 11.9：A 卡渲染，N 卡跑 DLSS-NR / NVOF / DLSS-G 插帧 / HDR10 上屏；轻量包不含 NVIDIA/AMD 运行时；免费分享，禁止倒卖。`
+- **Public**，**不要**勾选 README/.gitignore/license 初始化
+- **Topics**：`mgpu` `dlss` `frame-generation` `nvidia` `amd` `reshade` `hdr` `dual-gpu`
+
 ## 1. 建仓库
 
 GitHub 网页：New repository → 名称随意（如 `MGPU-11.9`）→ Public → 不要初始化 README/LICENSE（本目录已有）。
@@ -28,7 +36,7 @@ git push -u origin main
 gh release create v11.9 ^
   "_release-assets\MGPU-11.9-lite.zip" ^
   "_release-assets\MGPU-11.9-lite.zip.sha256.txt" ^
-  --title "MGPU 11.9（R41x13j）轻量包 · 免费分享" ^
+  --title "MGPU 11.9 (R41x13j) Lite · Free Share / 轻量包 · 免费分享" ^
   --notes-file RELEASE_NOTES.md
 ```
 

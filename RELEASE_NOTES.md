@@ -34,3 +34,9 @@ NVIDIA DLSS 运行时（`nvngx_dlssnr.dll` / `nvngx_dlssg.dll` / `vendor_*.dll` 
 - 显示线必须接 N 卡（A 卡无头）；
 - HDR 需 Windows HDR + 显示器 HDR 同时开启；
 - 本版本不带 OPT；需要 OPT 超分请自行按 OptiScaler 文档安装。
+
+---
+
+## English summary
+
+**MGPU 11.9 (R41x13j) — lite release, free share.** A dual-GPU bridge for "AMD renders + NVIDIA runs DLSS-NR / NVOF / DLSS-G frame generation / HDR10 output". This lite zip contains the bridge add-on, ReShade 6.8, ini/config, tools and docs — **no NVIDIA/AMD runtime binaries**: supply `mgpu\nvngx_dlssnr.dll`, `mgpu\nvngx_dlssg.dll`, `mgpu\vendor_*.dll` and `mgpu\_nvngx.dll` yourself (see `docs/RUNTIME-FILES.md`). Install: copy `Win64/` into the game exe dir → add runtime files → `setup-driver.ps1 -Apply` → `first-run.ps1` (dry-run then `-Apply`) → launch. Requirements: Windows 10/11, AMD render + RTX 50 NVIDIA card, monitor wired to the NVIDIA card. License: MIT (author 电子羊羊尾, Heybox 38096711); upstream MIT/BSD-3 notices in `THIRD_PARTY_NOTICES.md`. **Free share — do not resell.**

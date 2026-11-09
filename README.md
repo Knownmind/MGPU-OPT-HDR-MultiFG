@@ -1,5 +1,9 @@
 # MGPU(NVOF自适应多倍插帧+OPT注入超分+HDR) 11.9 · 轻量发布包
 
+> **English**：A dual-GPU MGPU Bridge 11.9 — the AMD card renders, the NVIDIA card runs DLSS-NR / NVOF / DLSS-G frame generation / HDR10 output. **Lite release: NVIDIA/AMD runtimes are NOT included** (see `docs/RUNTIME-FILES.md`). **Free share, not for sale.**
+> **中文**：A+N 双显卡 MGPU Bridge 11.9：A 卡渲染，N 卡跑 DLSS-NR / NVOF / DLSS-G 插帧 / HDR10 上屏。**轻量包不含 NVIDIA/AMD 运行时**（见 `docs/RUNTIME-FILES.md`）。**免费分享，禁止倒卖。**
+> [English README](README.en.md) · [中文说明](README.md)
+>
 > **作者**：电子羊羊尾（小黑盒 ID: 38096711）
 > **免费分享**：本包**免费分享**、不收取任何费用；**禁止倒卖/付费售卖**——如在第三方平台付费购得，请退款并向平台举报。
 > **内核**：MGPU Bridge 0.4.0 定制构建 **R41x13j**（`Win64/nvngx.dll_mgpu_bridge.addon64` = 1,360,896 B / `sha256:13e01caf…`）
