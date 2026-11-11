@@ -63,11 +63,11 @@
 │   ├── deployment-zh.md       ← 分步部署、配置含义、排障
 │   ├── project-zh.md          ← 组件清单、实测记录、已知问题、回滚
 │   ├── 19-screenshots-hotkeys-zh.md
-│   └── 21-kcd1-d3d11-port-zh.md
+│   ├── opt-a-n-en.md          ← OptiScaler 在 A+N 混插机上开启 DLSS 槽位（英文）
 └── _release-assets/           ← 发布用 zip + .sha256（.gitignore 忽略，不进 git）
 ```
 
-> **可选件 OPT（OptiScaler/FSR4）不包含在本轻量发布中**（含第三方二进制，许可与体积原因）。需要 OPT 的请看完整包/自行按 OptiScaler 文档安装。
+> **可选件 OPT（OptiScaler/FSR4）不包含在本轻量发布中**（含第三方二进制，许可与体积原因）。需要 OPT 的请看完整包/自行按 OptiScaler 文档安装；A+N 混插机先看 [`docs/opt-a-n-en.md`](docs/opt-a-n-en.md)（一行 `Dxgi=true` 修复）。
 
 ---
 
