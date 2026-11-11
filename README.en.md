@@ -42,11 +42,11 @@ The package is a ReShade 6.8 add-on (MGPU Bridge custom kernel) plus deployment 
 ├── SHA256SUMS.txt             ← checksums of repository files
 ├── Win64/                     ← copy into the game's exe directory (lite: no runtime DLLs)
 ├── tools/                     ← first-run / setup-driver / choose-adapter / selfcheck
-├── docs/                      ← deployment, runtime files, project notes, screenshots/hotkeys, KCD1 D3D11
+├── docs/                      ← deployment, runtime files, project notes, screenshots/hotkeys, KCD1 D3D11, OPT on A+N
 └── _release-assets/           ← release zip + .sha256 (gitignored)
 ```
 
-> **OPT (OptiScaler/FSR4) is not part of this lite release** (third-party binaries, licensing/size). Use the full package or install OptiScaler yourself.
+> **OPT (OptiScaler/FSR4) is not part of this lite release** (third-party binaries, licensing/size). Use the full package, or install OptiScaler yourself — for A+N hybrid machines see [`docs/opt-a-n-en.md`](docs/opt-a-n-en.md) (one-line `Dxgi=true` fix).
 
 ---
 
